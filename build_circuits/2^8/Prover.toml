@@ -1,0 +1,2046 @@
+string = [ "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6"]
+
+[[apps]]
+ position=0
+ rule=0
+
+[[apps]]
+ position=0
+ rule=2
+
+[[apps]]
+ position=0
+ rule=3
+
+[[apps]]
+ position=1
+ rule=4
+
+[[apps]]
+ position=2
+ rule=1
+
+[[apps]]
+ position=2
+ rule=2
+
+[[apps]]
+ position=2
+ rule=3
+
+[[apps]]
+ position=3
+ rule=4
+
+[[apps]]
+ position=4
+ rule=1
+
+[[apps]]
+ position=4
+ rule=2
+
+[[apps]]
+ position=4
+ rule=3
+
+[[apps]]
+ position=5
+ rule=4
+
+[[apps]]
+ position=6
+ rule=1
+
+[[apps]]
+ position=6
+ rule=2
+
+[[apps]]
+ position=6
+ rule=3
+
+[[apps]]
+ position=7
+ rule=4
+
+[[apps]]
+ position=8
+ rule=1
+
+[[apps]]
+ position=8
+ rule=2
+
+[[apps]]
+ position=8
+ rule=3
+
+[[apps]]
+ position=9
+ rule=4
+
+[[apps]]
+ position=10
+ rule=1
+
+[[apps]]
+ position=10
+ rule=2
+
+[[apps]]
+ position=10
+ rule=3
+
+[[apps]]
+ position=11
+ rule=4
+
+[[apps]]
+ position=12
+ rule=1
+
+[[apps]]
+ position=12
+ rule=2
+
+[[apps]]
+ position=12
+ rule=3
+
+[[apps]]
+ position=13
+ rule=4
+
+[[apps]]
+ position=14
+ rule=1
+
+[[apps]]
+ position=14
+ rule=2
+
+[[apps]]
+ position=14
+ rule=3
+
+[[apps]]
+ position=15
+ rule=4
+
+[[apps]]
+ position=16
+ rule=1
+
+[[apps]]
+ position=16
+ rule=2
+
+[[apps]]
+ position=16
+ rule=3
+
+[[apps]]
+ position=17
+ rule=4
+
+[[apps]]
+ position=18
+ rule=1
+
+[[apps]]
+ position=18
+ rule=2
+
+[[apps]]
+ position=18
+ rule=3
+
+[[apps]]
+ position=19
+ rule=4
+
+[[apps]]
+ position=20
+ rule=1
+
+[[apps]]
+ position=20
+ rule=2
+
+[[apps]]
+ position=20
+ rule=3
+
+[[apps]]
+ position=21
+ rule=4
+
+[[apps]]
+ position=22
+ rule=1
+
+[[apps]]
+ position=22
+ rule=2
+
+[[apps]]
+ position=22
+ rule=3
+
+[[apps]]
+ position=23
+ rule=4
+
+[[apps]]
+ position=24
+ rule=1
+
+[[apps]]
+ position=24
+ rule=2
+
+[[apps]]
+ position=24
+ rule=3
+
+[[apps]]
+ position=25
+ rule=4
+
+[[apps]]
+ position=26
+ rule=1
+
+[[apps]]
+ position=26
+ rule=2
+
+[[apps]]
+ position=26
+ rule=3
+
+[[apps]]
+ position=27
+ rule=4
+
+[[apps]]
+ position=28
+ rule=1
+
+[[apps]]
+ position=28
+ rule=2
+
+[[apps]]
+ position=28
+ rule=3
+
+[[apps]]
+ position=29
+ rule=4
+
+[[apps]]
+ position=30
+ rule=1
+
+[[apps]]
+ position=30
+ rule=2
+
+[[apps]]
+ position=30
+ rule=3
+
+[[apps]]
+ position=31
+ rule=4
+
+[[apps]]
+ position=32
+ rule=1
+
+[[apps]]
+ position=32
+ rule=2
+
+[[apps]]
+ position=32
+ rule=3
+
+[[apps]]
+ position=33
+ rule=4
+
+[[apps]]
+ position=34
+ rule=1
+
+[[apps]]
+ position=34
+ rule=2
+
+[[apps]]
+ position=34
+ rule=3
+
+[[apps]]
+ position=35
+ rule=4
+
+[[apps]]
+ position=36
+ rule=1
+
+[[apps]]
+ position=36
+ rule=2
+
+[[apps]]
+ position=36
+ rule=3
+
+[[apps]]
+ position=37
+ rule=4
+
+[[apps]]
+ position=38
+ rule=1
+
+[[apps]]
+ position=38
+ rule=2
+
+[[apps]]
+ position=38
+ rule=3
+
+[[apps]]
+ position=39
+ rule=4
+
+[[apps]]
+ position=40
+ rule=1
+
+[[apps]]
+ position=40
+ rule=2
+
+[[apps]]
+ position=40
+ rule=3
+
+[[apps]]
+ position=41
+ rule=4
+
+[[apps]]
+ position=42
+ rule=1
+
+[[apps]]
+ position=42
+ rule=2
+
+[[apps]]
+ position=42
+ rule=3
+
+[[apps]]
+ position=43
+ rule=4
+
+[[apps]]
+ position=44
+ rule=1
+
+[[apps]]
+ position=44
+ rule=2
+
+[[apps]]
+ position=44
+ rule=3
+
+[[apps]]
+ position=45
+ rule=4
+
+[[apps]]
+ position=46
+ rule=1
+
+[[apps]]
+ position=46
+ rule=2
+
+[[apps]]
+ position=46
+ rule=3
+
+[[apps]]
+ position=47
+ rule=4
+
+[[apps]]
+ position=48
+ rule=1
+
+[[apps]]
+ position=48
+ rule=2
+
+[[apps]]
+ position=48
+ rule=3
+
+[[apps]]
+ position=49
+ rule=4
+
+[[apps]]
+ position=50
+ rule=1
+
+[[apps]]
+ position=50
+ rule=2
+
+[[apps]]
+ position=50
+ rule=3
+
+[[apps]]
+ position=51
+ rule=4
+
+[[apps]]
+ position=52
+ rule=1
+
+[[apps]]
+ position=52
+ rule=2
+
+[[apps]]
+ position=52
+ rule=3
+
+[[apps]]
+ position=53
+ rule=4
+
+[[apps]]
+ position=54
+ rule=1
+
+[[apps]]
+ position=54
+ rule=2
+
+[[apps]]
+ position=54
+ rule=3
+
+[[apps]]
+ position=55
+ rule=4
+
+[[apps]]
+ position=56
+ rule=1
+
+[[apps]]
+ position=56
+ rule=2
+
+[[apps]]
+ position=56
+ rule=3
+
+[[apps]]
+ position=57
+ rule=4
+
+[[apps]]
+ position=58
+ rule=1
+
+[[apps]]
+ position=58
+ rule=2
+
+[[apps]]
+ position=58
+ rule=3
+
+[[apps]]
+ position=59
+ rule=4
+
+[[apps]]
+ position=60
+ rule=1
+
+[[apps]]
+ position=60
+ rule=2
+
+[[apps]]
+ position=60
+ rule=3
+
+[[apps]]
+ position=61
+ rule=4
+
+[[apps]]
+ position=62
+ rule=1
+
+[[apps]]
+ position=62
+ rule=2
+
+[[apps]]
+ position=62
+ rule=3
+
+[[apps]]
+ position=63
+ rule=4
+
+[[apps]]
+ position=64
+ rule=1
+
+[[apps]]
+ position=64
+ rule=2
+
+[[apps]]
+ position=64
+ rule=3
+
+[[apps]]
+ position=65
+ rule=4
+
+[[apps]]
+ position=66
+ rule=1
+
+[[apps]]
+ position=66
+ rule=2
+
+[[apps]]
+ position=66
+ rule=3
+
+[[apps]]
+ position=67
+ rule=4
+
+[[apps]]
+ position=68
+ rule=1
+
+[[apps]]
+ position=68
+ rule=2
+
+[[apps]]
+ position=68
+ rule=3
+
+[[apps]]
+ position=69
+ rule=4
+
+[[apps]]
+ position=70
+ rule=1
+
+[[apps]]
+ position=70
+ rule=2
+
+[[apps]]
+ position=70
+ rule=3
+
+[[apps]]
+ position=71
+ rule=4
+
+[[apps]]
+ position=72
+ rule=1
+
+[[apps]]
+ position=72
+ rule=2
+
+[[apps]]
+ position=72
+ rule=3
+
+[[apps]]
+ position=73
+ rule=4
+
+[[apps]]
+ position=74
+ rule=1
+
+[[apps]]
+ position=74
+ rule=2
+
+[[apps]]
+ position=74
+ rule=3
+
+[[apps]]
+ position=75
+ rule=4
+
+[[apps]]
+ position=76
+ rule=1
+
+[[apps]]
+ position=76
+ rule=2
+
+[[apps]]
+ position=76
+ rule=3
+
+[[apps]]
+ position=77
+ rule=4
+
+[[apps]]
+ position=78
+ rule=1
+
+[[apps]]
+ position=78
+ rule=2
+
+[[apps]]
+ position=78
+ rule=3
+
+[[apps]]
+ position=79
+ rule=4
+
+[[apps]]
+ position=80
+ rule=1
+
+[[apps]]
+ position=80
+ rule=2
+
+[[apps]]
+ position=80
+ rule=3
+
+[[apps]]
+ position=81
+ rule=4
+
+[[apps]]
+ position=82
+ rule=1
+
+[[apps]]
+ position=82
+ rule=2
+
+[[apps]]
+ position=82
+ rule=3
+
+[[apps]]
+ position=83
+ rule=4
+
+[[apps]]
+ position=84
+ rule=1
+
+[[apps]]
+ position=84
+ rule=2
+
+[[apps]]
+ position=84
+ rule=3
+
+[[apps]]
+ position=85
+ rule=4
+
+[[apps]]
+ position=86
+ rule=1
+
+[[apps]]
+ position=86
+ rule=2
+
+[[apps]]
+ position=86
+ rule=3
+
+[[apps]]
+ position=87
+ rule=4
+
+[[apps]]
+ position=88
+ rule=1
+
+[[apps]]
+ position=88
+ rule=2
+
+[[apps]]
+ position=88
+ rule=3
+
+[[apps]]
+ position=89
+ rule=4
+
+[[apps]]
+ position=90
+ rule=1
+
+[[apps]]
+ position=90
+ rule=2
+
+[[apps]]
+ position=90
+ rule=3
+
+[[apps]]
+ position=91
+ rule=4
+
+[[apps]]
+ position=92
+ rule=1
+
+[[apps]]
+ position=92
+ rule=2
+
+[[apps]]
+ position=92
+ rule=3
+
+[[apps]]
+ position=93
+ rule=4
+
+[[apps]]
+ position=94
+ rule=1
+
+[[apps]]
+ position=94
+ rule=2
+
+[[apps]]
+ position=94
+ rule=3
+
+[[apps]]
+ position=95
+ rule=4
+
+[[apps]]
+ position=96
+ rule=1
+
+[[apps]]
+ position=96
+ rule=2
+
+[[apps]]
+ position=96
+ rule=3
+
+[[apps]]
+ position=97
+ rule=4
+
+[[apps]]
+ position=98
+ rule=1
+
+[[apps]]
+ position=98
+ rule=2
+
+[[apps]]
+ position=98
+ rule=3
+
+[[apps]]
+ position=99
+ rule=4
+
+[[apps]]
+ position=100
+ rule=1
+
+[[apps]]
+ position=100
+ rule=2
+
+[[apps]]
+ position=100
+ rule=3
+
+[[apps]]
+ position=101
+ rule=4
+
+[[apps]]
+ position=102
+ rule=1
+
+[[apps]]
+ position=102
+ rule=2
+
+[[apps]]
+ position=102
+ rule=3
+
+[[apps]]
+ position=103
+ rule=4
+
+[[apps]]
+ position=104
+ rule=1
+
+[[apps]]
+ position=104
+ rule=2
+
+[[apps]]
+ position=104
+ rule=3
+
+[[apps]]
+ position=105
+ rule=4
+
+[[apps]]
+ position=106
+ rule=1
+
+[[apps]]
+ position=106
+ rule=2
+
+[[apps]]
+ position=106
+ rule=3
+
+[[apps]]
+ position=107
+ rule=4
+
+[[apps]]
+ position=108
+ rule=1
+
+[[apps]]
+ position=108
+ rule=2
+
+[[apps]]
+ position=108
+ rule=3
+
+[[apps]]
+ position=109
+ rule=4
+
+[[apps]]
+ position=110
+ rule=1
+
+[[apps]]
+ position=110
+ rule=2
+
+[[apps]]
+ position=110
+ rule=3
+
+[[apps]]
+ position=111
+ rule=4
+
+[[apps]]
+ position=112
+ rule=1
+
+[[apps]]
+ position=112
+ rule=2
+
+[[apps]]
+ position=112
+ rule=3
+
+[[apps]]
+ position=113
+ rule=4
+
+[[apps]]
+ position=114
+ rule=1
+
+[[apps]]
+ position=114
+ rule=2
+
+[[apps]]
+ position=114
+ rule=3
+
+[[apps]]
+ position=115
+ rule=4
+
+[[apps]]
+ position=116
+ rule=1
+
+[[apps]]
+ position=116
+ rule=2
+
+[[apps]]
+ position=116
+ rule=3
+
+[[apps]]
+ position=117
+ rule=4
+
+[[apps]]
+ position=118
+ rule=1
+
+[[apps]]
+ position=118
+ rule=2
+
+[[apps]]
+ position=118
+ rule=3
+
+[[apps]]
+ position=119
+ rule=4
+
+[[apps]]
+ position=120
+ rule=1
+
+[[apps]]
+ position=120
+ rule=2
+
+[[apps]]
+ position=120
+ rule=3
+
+[[apps]]
+ position=121
+ rule=4
+
+[[apps]]
+ position=122
+ rule=1
+
+[[apps]]
+ position=122
+ rule=2
+
+[[apps]]
+ position=122
+ rule=3
+
+[[apps]]
+ position=123
+ rule=4
+
+[[apps]]
+ position=124
+ rule=1
+
+[[apps]]
+ position=124
+ rule=2
+
+[[apps]]
+ position=124
+ rule=3
+
+[[apps]]
+ position=125
+ rule=4
+
+[[apps]]
+ position=126
+ rule=1
+
+[[apps]]
+ position=126
+ rule=2
+
+[[apps]]
+ position=126
+ rule=3
+
+[[apps]]
+ position=127
+ rule=4
+
+[[apps]]
+ position=128
+ rule=1
+
+[[apps]]
+ position=128
+ rule=2
+
+[[apps]]
+ position=128
+ rule=3
+
+[[apps]]
+ position=129
+ rule=4
+
+[[apps]]
+ position=130
+ rule=1
+
+[[apps]]
+ position=130
+ rule=2
+
+[[apps]]
+ position=130
+ rule=3
+
+[[apps]]
+ position=131
+ rule=4
+
+[[apps]]
+ position=132
+ rule=1
+
+[[apps]]
+ position=132
+ rule=2
+
+[[apps]]
+ position=132
+ rule=3
+
+[[apps]]
+ position=133
+ rule=4
+
+[[apps]]
+ position=134
+ rule=1
+
+[[apps]]
+ position=134
+ rule=2
+
+[[apps]]
+ position=134
+ rule=3
+
+[[apps]]
+ position=135
+ rule=4
+
+[[apps]]
+ position=136
+ rule=1
+
+[[apps]]
+ position=136
+ rule=2
+
+[[apps]]
+ position=136
+ rule=3
+
+[[apps]]
+ position=137
+ rule=4
+
+[[apps]]
+ position=138
+ rule=1
+
+[[apps]]
+ position=138
+ rule=2
+
+[[apps]]
+ position=138
+ rule=3
+
+[[apps]]
+ position=139
+ rule=4
+
+[[apps]]
+ position=140
+ rule=1
+
+[[apps]]
+ position=140
+ rule=2
+
+[[apps]]
+ position=140
+ rule=3
+
+[[apps]]
+ position=141
+ rule=4
+
+[[apps]]
+ position=142
+ rule=1
+
+[[apps]]
+ position=142
+ rule=2
+
+[[apps]]
+ position=142
+ rule=3
+
+[[apps]]
+ position=143
+ rule=4
+
+[[apps]]
+ position=144
+ rule=1
+
+[[apps]]
+ position=144
+ rule=2
+
+[[apps]]
+ position=144
+ rule=3
+
+[[apps]]
+ position=145
+ rule=4
+
+[[apps]]
+ position=146
+ rule=1
+
+[[apps]]
+ position=146
+ rule=2
+
+[[apps]]
+ position=146
+ rule=3
+
+[[apps]]
+ position=147
+ rule=4
+
+[[apps]]
+ position=148
+ rule=1
+
+[[apps]]
+ position=148
+ rule=2
+
+[[apps]]
+ position=148
+ rule=3
+
+[[apps]]
+ position=149
+ rule=4
+
+[[apps]]
+ position=150
+ rule=1
+
+[[apps]]
+ position=150
+ rule=2
+
+[[apps]]
+ position=150
+ rule=3
+
+[[apps]]
+ position=151
+ rule=4
+
+[[apps]]
+ position=152
+ rule=1
+
+[[apps]]
+ position=152
+ rule=2
+
+[[apps]]
+ position=152
+ rule=3
+
+[[apps]]
+ position=153
+ rule=4
+
+[[apps]]
+ position=154
+ rule=1
+
+[[apps]]
+ position=154
+ rule=2
+
+[[apps]]
+ position=154
+ rule=3
+
+[[apps]]
+ position=155
+ rule=4
+
+[[apps]]
+ position=156
+ rule=1
+
+[[apps]]
+ position=156
+ rule=2
+
+[[apps]]
+ position=156
+ rule=3
+
+[[apps]]
+ position=157
+ rule=4
+
+[[apps]]
+ position=158
+ rule=1
+
+[[apps]]
+ position=158
+ rule=2
+
+[[apps]]
+ position=158
+ rule=3
+
+[[apps]]
+ position=159
+ rule=4
+
+[[apps]]
+ position=160
+ rule=1
+
+[[apps]]
+ position=160
+ rule=2
+
+[[apps]]
+ position=160
+ rule=3
+
+[[apps]]
+ position=161
+ rule=4
+
+[[apps]]
+ position=162
+ rule=1
+
+[[apps]]
+ position=162
+ rule=2
+
+[[apps]]
+ position=162
+ rule=3
+
+[[apps]]
+ position=163
+ rule=4
+
+[[apps]]
+ position=164
+ rule=1
+
+[[apps]]
+ position=164
+ rule=2
+
+[[apps]]
+ position=164
+ rule=3
+
+[[apps]]
+ position=165
+ rule=4
+
+[[apps]]
+ position=166
+ rule=1
+
+[[apps]]
+ position=166
+ rule=2
+
+[[apps]]
+ position=166
+ rule=3
+
+[[apps]]
+ position=167
+ rule=4
+
+[[apps]]
+ position=168
+ rule=1
+
+[[apps]]
+ position=168
+ rule=2
+
+[[apps]]
+ position=168
+ rule=3
+
+[[apps]]
+ position=169
+ rule=4
+
+[[apps]]
+ position=170
+ rule=1
+
+[[apps]]
+ position=170
+ rule=2
+
+[[apps]]
+ position=170
+ rule=3
+
+[[apps]]
+ position=171
+ rule=4
+
+[[apps]]
+ position=172
+ rule=1
+
+[[apps]]
+ position=172
+ rule=2
+
+[[apps]]
+ position=172
+ rule=3
+
+[[apps]]
+ position=173
+ rule=4
+
+[[apps]]
+ position=174
+ rule=1
+
+[[apps]]
+ position=174
+ rule=2
+
+[[apps]]
+ position=174
+ rule=3
+
+[[apps]]
+ position=175
+ rule=4
+
+[[apps]]
+ position=176
+ rule=1
+
+[[apps]]
+ position=176
+ rule=2
+
+[[apps]]
+ position=176
+ rule=3
+
+[[apps]]
+ position=177
+ rule=4
+
+[[apps]]
+ position=178
+ rule=1
+
+[[apps]]
+ position=178
+ rule=2
+
+[[apps]]
+ position=178
+ rule=3
+
+[[apps]]
+ position=179
+ rule=4
+
+[[apps]]
+ position=180
+ rule=1
+
+[[apps]]
+ position=180
+ rule=2
+
+[[apps]]
+ position=180
+ rule=3
+
+[[apps]]
+ position=181
+ rule=4
+
+[[apps]]
+ position=182
+ rule=1
+
+[[apps]]
+ position=182
+ rule=2
+
+[[apps]]
+ position=182
+ rule=3
+
+[[apps]]
+ position=183
+ rule=4
+
+[[apps]]
+ position=184
+ rule=1
+
+[[apps]]
+ position=184
+ rule=2
+
+[[apps]]
+ position=184
+ rule=3
+
+[[apps]]
+ position=185
+ rule=4
+
+[[apps]]
+ position=186
+ rule=1
+
+[[apps]]
+ position=186
+ rule=2
+
+[[apps]]
+ position=186
+ rule=3
+
+[[apps]]
+ position=187
+ rule=4
+
+[[apps]]
+ position=188
+ rule=1
+
+[[apps]]
+ position=188
+ rule=2
+
+[[apps]]
+ position=188
+ rule=3
+
+[[apps]]
+ position=189
+ rule=4
+
+[[apps]]
+ position=190
+ rule=1
+
+[[apps]]
+ position=190
+ rule=2
+
+[[apps]]
+ position=190
+ rule=3
+
+[[apps]]
+ position=191
+ rule=4
+
+[[apps]]
+ position=192
+ rule=1
+
+[[apps]]
+ position=192
+ rule=2
+
+[[apps]]
+ position=192
+ rule=3
+
+[[apps]]
+ position=193
+ rule=4
+
+[[apps]]
+ position=194
+ rule=1
+
+[[apps]]
+ position=194
+ rule=2
+
+[[apps]]
+ position=194
+ rule=3
+
+[[apps]]
+ position=195
+ rule=4
+
+[[apps]]
+ position=196
+ rule=1
+
+[[apps]]
+ position=196
+ rule=2
+
+[[apps]]
+ position=196
+ rule=3
+
+[[apps]]
+ position=197
+ rule=4
+
+[[apps]]
+ position=198
+ rule=1
+
+[[apps]]
+ position=198
+ rule=2
+
+[[apps]]
+ position=198
+ rule=3
+
+[[apps]]
+ position=199
+ rule=4
+
+[[apps]]
+ position=200
+ rule=1
+
+[[apps]]
+ position=200
+ rule=2
+
+[[apps]]
+ position=200
+ rule=3
+
+[[apps]]
+ position=201
+ rule=4
+
+[[apps]]
+ position=202
+ rule=1
+
+[[apps]]
+ position=202
+ rule=2
+
+[[apps]]
+ position=202
+ rule=3
+
+[[apps]]
+ position=203
+ rule=4
+
+[[apps]]
+ position=204
+ rule=1
+
+[[apps]]
+ position=204
+ rule=2
+
+[[apps]]
+ position=204
+ rule=3
+
+[[apps]]
+ position=205
+ rule=4
+
+[[apps]]
+ position=206
+ rule=1
+
+[[apps]]
+ position=206
+ rule=2
+
+[[apps]]
+ position=206
+ rule=3
+
+[[apps]]
+ position=207
+ rule=4
+
+[[apps]]
+ position=208
+ rule=1
+
+[[apps]]
+ position=208
+ rule=2
+
+[[apps]]
+ position=208
+ rule=3
+
+[[apps]]
+ position=209
+ rule=4
+
+[[apps]]
+ position=210
+ rule=1
+
+[[apps]]
+ position=210
+ rule=2
+
+[[apps]]
+ position=210
+ rule=3
+
+[[apps]]
+ position=211
+ rule=4
+
+[[apps]]
+ position=212
+ rule=1
+
+[[apps]]
+ position=212
+ rule=2
+
+[[apps]]
+ position=212
+ rule=3
+
+[[apps]]
+ position=213
+ rule=4
+
+[[apps]]
+ position=214
+ rule=1
+
+[[apps]]
+ position=214
+ rule=2
+
+[[apps]]
+ position=214
+ rule=3
+
+[[apps]]
+ position=215
+ rule=4
+
+[[apps]]
+ position=216
+ rule=1
+
+[[apps]]
+ position=216
+ rule=2
+
+[[apps]]
+ position=216
+ rule=3
+
+[[apps]]
+ position=217
+ rule=4
+
+[[apps]]
+ position=218
+ rule=1
+
+[[apps]]
+ position=218
+ rule=2
+
+[[apps]]
+ position=218
+ rule=3
+
+[[apps]]
+ position=219
+ rule=4
+
+[[apps]]
+ position=220
+ rule=1
+
+[[apps]]
+ position=220
+ rule=2
+
+[[apps]]
+ position=220
+ rule=3
+
+[[apps]]
+ position=221
+ rule=4
+
+[[apps]]
+ position=222
+ rule=1
+
+[[apps]]
+ position=222
+ rule=2
+
+[[apps]]
+ position=222
+ rule=3
+
+[[apps]]
+ position=223
+ rule=4
+
+[[apps]]
+ position=224
+ rule=1
+
+[[apps]]
+ position=224
+ rule=2
+
+[[apps]]
+ position=224
+ rule=3
+
+[[apps]]
+ position=225
+ rule=4
+
+[[apps]]
+ position=226
+ rule=1
+
+[[apps]]
+ position=226
+ rule=2
+
+[[apps]]
+ position=226
+ rule=3
+
+[[apps]]
+ position=227
+ rule=4
+
+[[apps]]
+ position=228
+ rule=1
+
+[[apps]]
+ position=228
+ rule=2
+
+[[apps]]
+ position=228
+ rule=3
+
+[[apps]]
+ position=229
+ rule=4
+
+[[apps]]
+ position=230
+ rule=1
+
+[[apps]]
+ position=230
+ rule=2
+
+[[apps]]
+ position=230
+ rule=3
+
+[[apps]]
+ position=231
+ rule=4
+
+[[apps]]
+ position=232
+ rule=1
+
+[[apps]]
+ position=232
+ rule=2
+
+[[apps]]
+ position=232
+ rule=3
+
+[[apps]]
+ position=233
+ rule=4
+
+[[apps]]
+ position=234
+ rule=1
+
+[[apps]]
+ position=234
+ rule=2
+
+[[apps]]
+ position=234
+ rule=3
+
+[[apps]]
+ position=235
+ rule=4
+
+[[apps]]
+ position=236
+ rule=1
+
+[[apps]]
+ position=236
+ rule=2
+
+[[apps]]
+ position=236
+ rule=3
+
+[[apps]]
+ position=237
+ rule=4
+
+[[apps]]
+ position=238
+ rule=1
+
+[[apps]]
+ position=238
+ rule=2
+
+[[apps]]
+ position=238
+ rule=3
+
+[[apps]]
+ position=239
+ rule=4
+
+[[apps]]
+ position=240
+ rule=1
+
+[[apps]]
+ position=240
+ rule=2
+
+[[apps]]
+ position=240
+ rule=3
+
+[[apps]]
+ position=241
+ rule=4
+
+[[apps]]
+ position=242
+ rule=1
+
+[[apps]]
+ position=242
+ rule=2
+
+[[apps]]
+ position=242
+ rule=3
+
+[[apps]]
+ position=243
+ rule=4
+
+[[apps]]
+ position=244
+ rule=1
+
+[[apps]]
+ position=244
+ rule=2
+
+[[apps]]
+ position=244
+ rule=3
+
+[[apps]]
+ position=245
+ rule=4
+
+[[apps]]
+ position=246
+ rule=1
+
+[[apps]]
+ position=246
+ rule=2
+
+[[apps]]
+ position=246
+ rule=3
+
+[[apps]]
+ position=247
+ rule=4
+
+[[apps]]
+ position=248
+ rule=1
+
+[[apps]]
+ position=248
+ rule=2
+
+[[apps]]
+ position=248
+ rule=3
+
+[[apps]]
+ position=249
+ rule=4
+
+[[apps]]
+ position=250
+ rule=1
+
+[[apps]]
+ position=250
+ rule=2
+
+[[apps]]
+ position=250
+ rule=3
+
+[[apps]]
+ position=251
+ rule=4
+
+[[apps]]
+ position=252
+ rule=1
+
+[[apps]]
+ position=252
+ rule=2
+
+[[apps]]
+ position=252
+ rule=3
+
+[[apps]]
+ position=253
+ rule=4
+
+[[apps]]
+ position=254
+ rule=2
+
+[[apps]]
+ position=254
+ rule=3
+
+[[apps]]
+ position=255
+ rule=4
+

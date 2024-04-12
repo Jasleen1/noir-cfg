@@ -1,0 +1,1 @@
+nargo prove  216.76s user 12.09s system 457% cpu 50.041 total

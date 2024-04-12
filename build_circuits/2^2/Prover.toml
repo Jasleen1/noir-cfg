@@ -1,0 +1,30 @@
+string = [ "5", "6", "5", "6"]
+
+[[apps]]
+ position=0
+ rule=0
+
+[[apps]]
+ position=0
+ rule=2
+
+[[apps]]
+ position=0
+ rule=3
+
+[[apps]]
+ position=1
+ rule=4
+
+[[apps]]
+ position=2
+ rule=2
+
+[[apps]]
+ position=2
+ rule=3
+
+[[apps]]
+ position=3
+ rule=4
+
