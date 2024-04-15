@@ -96,19 +96,11 @@ fn main(string: [Field; N], apps: [App; 2*N-1]) {
     for rl in apps {
 		
 		let rule = rl.rule;
-		let loc = rl.position;
-		//print("List = ");
-		//println(list);
-		//print("loc");
-		//println(loc);
-		let physical_loc = find_loc(list, loc);
+		let physical_loc = rl.position;
 		let (nt, ntL, ntR) = rules[rule];
 		// check rule applies to correct non terminal
 		assert(list[physical_loc].val == nt);
 		
-		
-		//print("Physical loc");
-		//println(physical_loc);
 		if (ntR == 0) { // NT to T
 			// Replace in place
 			list[physical_loc].val = ntL;

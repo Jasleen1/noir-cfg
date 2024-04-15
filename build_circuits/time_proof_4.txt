@@ -1,2 +1,2 @@
 The backend encountered an error: "Assertion failed: ((msm_size <= key->reference_string->get_monomial_size())), function process_queue, file work_queue.cpp, line 210.\n"
-nargo prove  2.75s user 0.19s system 297% cpu 0.988 total
+nargo prove  2.76s user 0.30s system 261% cpu 1.170 total

@@ -7,7 +7,7 @@ rm -r build_circuits
 mkdir -p build_circuits
 
 # Loop over sizes
-for i in $(seq 2 8)
+for i in $(seq 2 10)
 do
 
     # Generate a new build/2^{i} folder

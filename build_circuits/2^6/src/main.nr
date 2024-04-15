@@ -96,12 +96,16 @@ fn main(string: [Field; N], apps: [App; 2*N-1]) {
     for rl in apps {
 		
 		let rule = rl.rule;
-		let loc = rl.position;
+		let physical_loc = rl.position;
+		
+		//let loc = rl.position;
 		//print("List = ");
 		//println(list);
 		//print("loc");
 		//println(loc);
-		let physical_loc = find_loc(list, loc);
+		
+		//let physical_loc = find_loc(list, loc);
+		
 		let (nt, ntL, ntR) = rules[rule];
 		// check rule applies to correct non terminal
 		assert(list[physical_loc].val == nt);

@@ -13,47 +13,47 @@ string = [ "5", "6", "5", "6", "5", "6", "5", "6"]
  rule=3
 
 [[apps]]
- position=1
+ position=2
  rule=4
 
 [[apps]]
- position=2
+ position=1
  rule=1
 
 [[apps]]
- position=2
+ position=1
  rule=2
 
 [[apps]]
- position=2
+ position=1
  rule=3
+
+[[apps]]
+ position=4
+ rule=4
 
 [[apps]]
  position=3
- rule=4
-
-[[apps]]
- position=4
  rule=1
 
 [[apps]]
- position=4
+ position=3
  rule=2
 
 [[apps]]
- position=4
+ position=3
  rule=3
 
 [[apps]]
- position=5
+ position=6
  rule=4
 
 [[apps]]
- position=6
+ position=5
  rule=2
 
 [[apps]]
- position=6
+ position=5
  rule=3
 
 [[apps]]

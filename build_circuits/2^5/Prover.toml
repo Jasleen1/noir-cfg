@@ -13,239 +13,239 @@ string = [ "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6",
  rule=3
 
 [[apps]]
- position=1
+ position=2
  rule=4
 
 [[apps]]
- position=2
+ position=1
  rule=1
 
 [[apps]]
- position=2
+ position=1
  rule=2
 
 [[apps]]
- position=2
+ position=1
  rule=3
+
+[[apps]]
+ position=4
+ rule=4
 
 [[apps]]
  position=3
- rule=4
-
-[[apps]]
- position=4
  rule=1
 
 [[apps]]
- position=4
+ position=3
  rule=2
 
 [[apps]]
- position=4
+ position=3
  rule=3
+
+[[apps]]
+ position=6
+ rule=4
 
 [[apps]]
  position=5
- rule=4
-
-[[apps]]
- position=6
  rule=1
 
 [[apps]]
- position=6
+ position=5
  rule=2
 
 [[apps]]
- position=6
+ position=5
  rule=3
+
+[[apps]]
+ position=8
+ rule=4
 
 [[apps]]
  position=7
- rule=4
-
-[[apps]]
- position=8
  rule=1
 
 [[apps]]
- position=8
+ position=7
  rule=2
 
 [[apps]]
- position=8
+ position=7
  rule=3
+
+[[apps]]
+ position=10
+ rule=4
 
 [[apps]]
  position=9
- rule=4
-
-[[apps]]
- position=10
  rule=1
 
 [[apps]]
- position=10
+ position=9
  rule=2
 
 [[apps]]
- position=10
+ position=9
  rule=3
+
+[[apps]]
+ position=12
+ rule=4
 
 [[apps]]
  position=11
- rule=4
-
-[[apps]]
- position=12
  rule=1
 
 [[apps]]
- position=12
+ position=11
  rule=2
 
 [[apps]]
- position=12
+ position=11
  rule=3
+
+[[apps]]
+ position=14
+ rule=4
 
 [[apps]]
  position=13
- rule=4
-
-[[apps]]
- position=14
  rule=1
 
 [[apps]]
- position=14
+ position=13
  rule=2
 
 [[apps]]
- position=14
+ position=13
  rule=3
+
+[[apps]]
+ position=16
+ rule=4
 
 [[apps]]
  position=15
- rule=4
-
-[[apps]]
- position=16
  rule=1
 
 [[apps]]
- position=16
+ position=15
  rule=2
 
 [[apps]]
- position=16
+ position=15
  rule=3
+
+[[apps]]
+ position=18
+ rule=4
 
 [[apps]]
  position=17
- rule=4
-
-[[apps]]
- position=18
  rule=1
 
 [[apps]]
- position=18
+ position=17
  rule=2
 
 [[apps]]
- position=18
+ position=17
  rule=3
+
+[[apps]]
+ position=20
+ rule=4
 
 [[apps]]
  position=19
- rule=4
-
-[[apps]]
- position=20
  rule=1
 
 [[apps]]
- position=20
+ position=19
  rule=2
 
 [[apps]]
- position=20
+ position=19
  rule=3
+
+[[apps]]
+ position=22
+ rule=4
 
 [[apps]]
  position=21
- rule=4
-
-[[apps]]
- position=22
  rule=1
 
 [[apps]]
- position=22
+ position=21
  rule=2
 
 [[apps]]
- position=22
+ position=21
  rule=3
+
+[[apps]]
+ position=24
+ rule=4
 
 [[apps]]
  position=23
- rule=4
-
-[[apps]]
- position=24
  rule=1
 
 [[apps]]
- position=24
+ position=23
  rule=2
 
 [[apps]]
- position=24
+ position=23
  rule=3
+
+[[apps]]
+ position=26
+ rule=4
 
 [[apps]]
  position=25
- rule=4
-
-[[apps]]
- position=26
  rule=1
 
 [[apps]]
- position=26
+ position=25
  rule=2
 
 [[apps]]
- position=26
+ position=25
  rule=3
+
+[[apps]]
+ position=28
+ rule=4
 
 [[apps]]
  position=27
- rule=4
-
-[[apps]]
- position=28
  rule=1
 
 [[apps]]
- position=28
+ position=27
  rule=2
 
 [[apps]]
- position=28
+ position=27
  rule=3
 
 [[apps]]
- position=29
+ position=30
  rule=4
 
 [[apps]]
- position=30
+ position=29
  rule=2
 
 [[apps]]
- position=30
+ position=29
  rule=3
 
 [[apps]]

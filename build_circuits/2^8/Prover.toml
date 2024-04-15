@@ -13,2031 +13,2031 @@ string = [ "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6", "5", "6",
  rule=3
 
 [[apps]]
- position=1
+ position=2
  rule=4
 
 [[apps]]
- position=2
+ position=1
  rule=1
 
 [[apps]]
- position=2
+ position=1
  rule=2
 
 [[apps]]
- position=2
+ position=1
  rule=3
+
+[[apps]]
+ position=4
+ rule=4
 
 [[apps]]
  position=3
- rule=4
-
-[[apps]]
- position=4
  rule=1
 
 [[apps]]
- position=4
+ position=3
  rule=2
 
 [[apps]]
- position=4
+ position=3
  rule=3
+
+[[apps]]
+ position=6
+ rule=4
 
 [[apps]]
  position=5
- rule=4
-
-[[apps]]
- position=6
  rule=1
 
 [[apps]]
- position=6
+ position=5
  rule=2
 
 [[apps]]
- position=6
+ position=5
  rule=3
+
+[[apps]]
+ position=8
+ rule=4
 
 [[apps]]
  position=7
- rule=4
-
-[[apps]]
- position=8
  rule=1
 
 [[apps]]
- position=8
+ position=7
  rule=2
 
 [[apps]]
- position=8
+ position=7
  rule=3
+
+[[apps]]
+ position=10
+ rule=4
 
 [[apps]]
  position=9
- rule=4
-
-[[apps]]
- position=10
  rule=1
 
 [[apps]]
- position=10
+ position=9
  rule=2
 
 [[apps]]
- position=10
+ position=9
  rule=3
+
+[[apps]]
+ position=12
+ rule=4
 
 [[apps]]
  position=11
- rule=4
-
-[[apps]]
- position=12
  rule=1
 
 [[apps]]
- position=12
+ position=11
  rule=2
 
 [[apps]]
- position=12
+ position=11
  rule=3
+
+[[apps]]
+ position=14
+ rule=4
 
 [[apps]]
  position=13
- rule=4
-
-[[apps]]
- position=14
  rule=1
 
 [[apps]]
- position=14
+ position=13
  rule=2
 
 [[apps]]
- position=14
+ position=13
  rule=3
+
+[[apps]]
+ position=16
+ rule=4
 
 [[apps]]
  position=15
- rule=4
-
-[[apps]]
- position=16
  rule=1
 
 [[apps]]
- position=16
+ position=15
  rule=2
 
 [[apps]]
- position=16
+ position=15
  rule=3
+
+[[apps]]
+ position=18
+ rule=4
 
 [[apps]]
  position=17
- rule=4
-
-[[apps]]
- position=18
  rule=1
 
 [[apps]]
- position=18
+ position=17
  rule=2
 
 [[apps]]
- position=18
+ position=17
  rule=3
+
+[[apps]]
+ position=20
+ rule=4
 
 [[apps]]
  position=19
- rule=4
-
-[[apps]]
- position=20
  rule=1
 
 [[apps]]
- position=20
+ position=19
  rule=2
 
 [[apps]]
- position=20
+ position=19
  rule=3
+
+[[apps]]
+ position=22
+ rule=4
 
 [[apps]]
  position=21
- rule=4
-
-[[apps]]
- position=22
  rule=1
 
 [[apps]]
- position=22
+ position=21
  rule=2
 
 [[apps]]
- position=22
+ position=21
  rule=3
+
+[[apps]]
+ position=24
+ rule=4
 
 [[apps]]
  position=23
- rule=4
-
-[[apps]]
- position=24
  rule=1
 
 [[apps]]
- position=24
+ position=23
  rule=2
 
 [[apps]]
- position=24
+ position=23
  rule=3
+
+[[apps]]
+ position=26
+ rule=4
 
 [[apps]]
  position=25
- rule=4
-
-[[apps]]
- position=26
  rule=1
 
 [[apps]]
- position=26
+ position=25
  rule=2
 
 [[apps]]
- position=26
+ position=25
  rule=3
+
+[[apps]]
+ position=28
+ rule=4
 
 [[apps]]
  position=27
- rule=4
-
-[[apps]]
- position=28
  rule=1
 
 [[apps]]
- position=28
+ position=27
  rule=2
 
 [[apps]]
- position=28
+ position=27
  rule=3
+
+[[apps]]
+ position=30
+ rule=4
 
 [[apps]]
  position=29
- rule=4
-
-[[apps]]
- position=30
  rule=1
 
 [[apps]]
- position=30
+ position=29
  rule=2
 
 [[apps]]
- position=30
+ position=29
  rule=3
+
+[[apps]]
+ position=32
+ rule=4
 
 [[apps]]
  position=31
- rule=4
-
-[[apps]]
- position=32
  rule=1
 
 [[apps]]
- position=32
+ position=31
  rule=2
 
 [[apps]]
- position=32
+ position=31
  rule=3
+
+[[apps]]
+ position=34
+ rule=4
 
 [[apps]]
  position=33
- rule=4
-
-[[apps]]
- position=34
  rule=1
 
 [[apps]]
- position=34
+ position=33
  rule=2
 
 [[apps]]
- position=34
+ position=33
  rule=3
+
+[[apps]]
+ position=36
+ rule=4
 
 [[apps]]
  position=35
- rule=4
-
-[[apps]]
- position=36
  rule=1
 
 [[apps]]
- position=36
+ position=35
  rule=2
 
 [[apps]]
- position=36
+ position=35
  rule=3
+
+[[apps]]
+ position=38
+ rule=4
 
 [[apps]]
  position=37
- rule=4
-
-[[apps]]
- position=38
  rule=1
 
 [[apps]]
- position=38
+ position=37
  rule=2
 
 [[apps]]
- position=38
+ position=37
  rule=3
+
+[[apps]]
+ position=40
+ rule=4
 
 [[apps]]
  position=39
- rule=4
-
-[[apps]]
- position=40
  rule=1
 
 [[apps]]
- position=40
+ position=39
  rule=2
 
 [[apps]]
- position=40
+ position=39
  rule=3
+
+[[apps]]
+ position=42
+ rule=4
 
 [[apps]]
  position=41
- rule=4
-
-[[apps]]
- position=42
  rule=1
 
 [[apps]]
- position=42
+ position=41
  rule=2
 
 [[apps]]
- position=42
+ position=41
  rule=3
+
+[[apps]]
+ position=44
+ rule=4
 
 [[apps]]
  position=43
- rule=4
-
-[[apps]]
- position=44
  rule=1
 
 [[apps]]
- position=44
+ position=43
  rule=2
 
 [[apps]]
- position=44
+ position=43
  rule=3
+
+[[apps]]
+ position=46
+ rule=4
 
 [[apps]]
  position=45
- rule=4
-
-[[apps]]
- position=46
  rule=1
 
 [[apps]]
- position=46
+ position=45
  rule=2
 
 [[apps]]
- position=46
+ position=45
  rule=3
+
+[[apps]]
+ position=48
+ rule=4
 
 [[apps]]
  position=47
- rule=4
-
-[[apps]]
- position=48
  rule=1
 
 [[apps]]
- position=48
+ position=47
  rule=2
 
 [[apps]]
- position=48
+ position=47
  rule=3
+
+[[apps]]
+ position=50
+ rule=4
 
 [[apps]]
  position=49
- rule=4
-
-[[apps]]
- position=50
  rule=1
 
 [[apps]]
- position=50
+ position=49
  rule=2
 
 [[apps]]
- position=50
+ position=49
  rule=3
+
+[[apps]]
+ position=52
+ rule=4
 
 [[apps]]
  position=51
- rule=4
-
-[[apps]]
- position=52
  rule=1
 
 [[apps]]
- position=52
+ position=51
  rule=2
 
 [[apps]]
- position=52
+ position=51
  rule=3
+
+[[apps]]
+ position=54
+ rule=4
 
 [[apps]]
  position=53
- rule=4
-
-[[apps]]
- position=54
  rule=1
 
 [[apps]]
- position=54
+ position=53
  rule=2
 
 [[apps]]
- position=54
+ position=53
  rule=3
+
+[[apps]]
+ position=56
+ rule=4
 
 [[apps]]
  position=55
- rule=4
-
-[[apps]]
- position=56
  rule=1
 
 [[apps]]
- position=56
+ position=55
  rule=2
 
 [[apps]]
- position=56
+ position=55
  rule=3
+
+[[apps]]
+ position=58
+ rule=4
 
 [[apps]]
  position=57
- rule=4
-
-[[apps]]
- position=58
  rule=1
 
 [[apps]]
- position=58
+ position=57
  rule=2
 
 [[apps]]
- position=58
+ position=57
  rule=3
+
+[[apps]]
+ position=60
+ rule=4
 
 [[apps]]
  position=59
- rule=4
-
-[[apps]]
- position=60
  rule=1
 
 [[apps]]
- position=60
+ position=59
  rule=2
 
 [[apps]]
- position=60
+ position=59
  rule=3
+
+[[apps]]
+ position=62
+ rule=4
 
 [[apps]]
  position=61
- rule=4
-
-[[apps]]
- position=62
  rule=1
 
 [[apps]]
- position=62
+ position=61
  rule=2
 
 [[apps]]
- position=62
+ position=61
  rule=3
+
+[[apps]]
+ position=64
+ rule=4
 
 [[apps]]
  position=63
- rule=4
-
-[[apps]]
- position=64
  rule=1
 
 [[apps]]
- position=64
+ position=63
  rule=2
 
 [[apps]]
- position=64
+ position=63
  rule=3
+
+[[apps]]
+ position=66
+ rule=4
 
 [[apps]]
  position=65
- rule=4
-
-[[apps]]
- position=66
  rule=1
 
 [[apps]]
- position=66
+ position=65
  rule=2
 
 [[apps]]
- position=66
+ position=65
  rule=3
+
+[[apps]]
+ position=68
+ rule=4
 
 [[apps]]
  position=67
- rule=4
-
-[[apps]]
- position=68
  rule=1
 
 [[apps]]
- position=68
+ position=67
  rule=2
 
 [[apps]]
- position=68
+ position=67
  rule=3
+
+[[apps]]
+ position=70
+ rule=4
 
 [[apps]]
  position=69
- rule=4
-
-[[apps]]
- position=70
  rule=1
 
 [[apps]]
- position=70
+ position=69
  rule=2
 
 [[apps]]
- position=70
+ position=69
  rule=3
+
+[[apps]]
+ position=72
+ rule=4
 
 [[apps]]
  position=71
- rule=4
-
-[[apps]]
- position=72
  rule=1
 
 [[apps]]
- position=72
+ position=71
  rule=2
 
 [[apps]]
- position=72
+ position=71
  rule=3
+
+[[apps]]
+ position=74
+ rule=4
 
 [[apps]]
  position=73
- rule=4
-
-[[apps]]
- position=74
  rule=1
 
 [[apps]]
- position=74
+ position=73
  rule=2
 
 [[apps]]
- position=74
+ position=73
  rule=3
+
+[[apps]]
+ position=76
+ rule=4
 
 [[apps]]
  position=75
- rule=4
-
-[[apps]]
- position=76
  rule=1
 
 [[apps]]
- position=76
+ position=75
  rule=2
 
 [[apps]]
- position=76
+ position=75
  rule=3
+
+[[apps]]
+ position=78
+ rule=4
 
 [[apps]]
  position=77
- rule=4
-
-[[apps]]
- position=78
  rule=1
 
 [[apps]]
- position=78
+ position=77
  rule=2
 
 [[apps]]
- position=78
+ position=77
  rule=3
+
+[[apps]]
+ position=80
+ rule=4
 
 [[apps]]
  position=79
- rule=4
-
-[[apps]]
- position=80
  rule=1
 
 [[apps]]
- position=80
+ position=79
  rule=2
 
 [[apps]]
- position=80
+ position=79
  rule=3
+
+[[apps]]
+ position=82
+ rule=4
 
 [[apps]]
  position=81
- rule=4
-
-[[apps]]
- position=82
  rule=1
 
 [[apps]]
- position=82
+ position=81
  rule=2
 
 [[apps]]
- position=82
+ position=81
  rule=3
+
+[[apps]]
+ position=84
+ rule=4
 
 [[apps]]
  position=83
- rule=4
-
-[[apps]]
- position=84
  rule=1
 
 [[apps]]
- position=84
+ position=83
  rule=2
 
 [[apps]]
- position=84
+ position=83
  rule=3
+
+[[apps]]
+ position=86
+ rule=4
 
 [[apps]]
  position=85
- rule=4
-
-[[apps]]
- position=86
  rule=1
 
 [[apps]]
- position=86
+ position=85
  rule=2
 
 [[apps]]
- position=86
+ position=85
  rule=3
+
+[[apps]]
+ position=88
+ rule=4
 
 [[apps]]
  position=87
- rule=4
-
-[[apps]]
- position=88
  rule=1
 
 [[apps]]
- position=88
+ position=87
  rule=2
 
 [[apps]]
- position=88
+ position=87
  rule=3
+
+[[apps]]
+ position=90
+ rule=4
 
 [[apps]]
  position=89
- rule=4
-
-[[apps]]
- position=90
  rule=1
 
 [[apps]]
- position=90
+ position=89
  rule=2
 
 [[apps]]
- position=90
+ position=89
  rule=3
+
+[[apps]]
+ position=92
+ rule=4
 
 [[apps]]
  position=91
- rule=4
-
-[[apps]]
- position=92
  rule=1
 
 [[apps]]
- position=92
+ position=91
  rule=2
 
 [[apps]]
- position=92
+ position=91
  rule=3
+
+[[apps]]
+ position=94
+ rule=4
 
 [[apps]]
  position=93
- rule=4
-
-[[apps]]
- position=94
  rule=1
 
 [[apps]]
- position=94
+ position=93
  rule=2
 
 [[apps]]
- position=94
+ position=93
  rule=3
+
+[[apps]]
+ position=96
+ rule=4
 
 [[apps]]
  position=95
- rule=4
-
-[[apps]]
- position=96
  rule=1
 
 [[apps]]
- position=96
+ position=95
  rule=2
 
 [[apps]]
- position=96
+ position=95
  rule=3
+
+[[apps]]
+ position=98
+ rule=4
 
 [[apps]]
  position=97
- rule=4
-
-[[apps]]
- position=98
  rule=1
 
 [[apps]]
- position=98
+ position=97
  rule=2
 
 [[apps]]
- position=98
+ position=97
  rule=3
+
+[[apps]]
+ position=100
+ rule=4
 
 [[apps]]
  position=99
- rule=4
-
-[[apps]]
- position=100
  rule=1
 
 [[apps]]
- position=100
+ position=99
  rule=2
 
 [[apps]]
- position=100
+ position=99
  rule=3
+
+[[apps]]
+ position=102
+ rule=4
 
 [[apps]]
  position=101
- rule=4
-
-[[apps]]
- position=102
  rule=1
 
 [[apps]]
- position=102
+ position=101
  rule=2
 
 [[apps]]
- position=102
+ position=101
  rule=3
+
+[[apps]]
+ position=104
+ rule=4
 
 [[apps]]
  position=103
- rule=4
-
-[[apps]]
- position=104
  rule=1
 
 [[apps]]
- position=104
+ position=103
  rule=2
 
 [[apps]]
- position=104
+ position=103
  rule=3
+
+[[apps]]
+ position=106
+ rule=4
 
 [[apps]]
  position=105
- rule=4
-
-[[apps]]
- position=106
  rule=1
 
 [[apps]]
- position=106
+ position=105
  rule=2
 
 [[apps]]
- position=106
+ position=105
  rule=3
+
+[[apps]]
+ position=108
+ rule=4
 
 [[apps]]
  position=107
- rule=4
-
-[[apps]]
- position=108
  rule=1
 
 [[apps]]
- position=108
+ position=107
  rule=2
 
 [[apps]]
- position=108
+ position=107
  rule=3
+
+[[apps]]
+ position=110
+ rule=4
 
 [[apps]]
  position=109
- rule=4
-
-[[apps]]
- position=110
  rule=1
 
 [[apps]]
- position=110
+ position=109
  rule=2
 
 [[apps]]
- position=110
+ position=109
  rule=3
+
+[[apps]]
+ position=112
+ rule=4
 
 [[apps]]
  position=111
- rule=4
-
-[[apps]]
- position=112
  rule=1
 
 [[apps]]
- position=112
+ position=111
  rule=2
 
 [[apps]]
- position=112
+ position=111
  rule=3
+
+[[apps]]
+ position=114
+ rule=4
 
 [[apps]]
  position=113
- rule=4
-
-[[apps]]
- position=114
  rule=1
 
 [[apps]]
- position=114
+ position=113
  rule=2
 
 [[apps]]
- position=114
+ position=113
  rule=3
+
+[[apps]]
+ position=116
+ rule=4
 
 [[apps]]
  position=115
- rule=4
-
-[[apps]]
- position=116
  rule=1
 
 [[apps]]
- position=116
+ position=115
  rule=2
 
 [[apps]]
- position=116
+ position=115
  rule=3
+
+[[apps]]
+ position=118
+ rule=4
 
 [[apps]]
  position=117
- rule=4
-
-[[apps]]
- position=118
  rule=1
 
 [[apps]]
- position=118
+ position=117
  rule=2
 
 [[apps]]
- position=118
+ position=117
  rule=3
+
+[[apps]]
+ position=120
+ rule=4
 
 [[apps]]
  position=119
- rule=4
-
-[[apps]]
- position=120
  rule=1
 
 [[apps]]
- position=120
+ position=119
  rule=2
 
 [[apps]]
- position=120
+ position=119
  rule=3
+
+[[apps]]
+ position=122
+ rule=4
 
 [[apps]]
  position=121
- rule=4
-
-[[apps]]
- position=122
  rule=1
 
 [[apps]]
- position=122
+ position=121
  rule=2
 
 [[apps]]
- position=122
+ position=121
  rule=3
+
+[[apps]]
+ position=124
+ rule=4
 
 [[apps]]
  position=123
- rule=4
-
-[[apps]]
- position=124
  rule=1
 
 [[apps]]
- position=124
+ position=123
  rule=2
 
 [[apps]]
- position=124
+ position=123
  rule=3
+
+[[apps]]
+ position=126
+ rule=4
 
 [[apps]]
  position=125
- rule=4
-
-[[apps]]
- position=126
  rule=1
 
 [[apps]]
- position=126
+ position=125
  rule=2
 
 [[apps]]
- position=126
+ position=125
  rule=3
+
+[[apps]]
+ position=128
+ rule=4
 
 [[apps]]
  position=127
- rule=4
-
-[[apps]]
- position=128
  rule=1
 
 [[apps]]
- position=128
+ position=127
  rule=2
 
 [[apps]]
- position=128
+ position=127
  rule=3
+
+[[apps]]
+ position=130
+ rule=4
 
 [[apps]]
  position=129
- rule=4
-
-[[apps]]
- position=130
  rule=1
 
 [[apps]]
- position=130
+ position=129
  rule=2
 
 [[apps]]
- position=130
+ position=129
  rule=3
+
+[[apps]]
+ position=132
+ rule=4
 
 [[apps]]
  position=131
- rule=4
-
-[[apps]]
- position=132
  rule=1
 
 [[apps]]
- position=132
+ position=131
  rule=2
 
 [[apps]]
- position=132
+ position=131
  rule=3
+
+[[apps]]
+ position=134
+ rule=4
 
 [[apps]]
  position=133
- rule=4
-
-[[apps]]
- position=134
  rule=1
 
 [[apps]]
- position=134
+ position=133
  rule=2
 
 [[apps]]
- position=134
+ position=133
  rule=3
+
+[[apps]]
+ position=136
+ rule=4
 
 [[apps]]
  position=135
- rule=4
-
-[[apps]]
- position=136
  rule=1
 
 [[apps]]
- position=136
+ position=135
  rule=2
 
 [[apps]]
- position=136
+ position=135
  rule=3
+
+[[apps]]
+ position=138
+ rule=4
 
 [[apps]]
  position=137
- rule=4
-
-[[apps]]
- position=138
  rule=1
 
 [[apps]]
- position=138
+ position=137
  rule=2
 
 [[apps]]
- position=138
+ position=137
  rule=3
+
+[[apps]]
+ position=140
+ rule=4
 
 [[apps]]
  position=139
- rule=4
-
-[[apps]]
- position=140
  rule=1
 
 [[apps]]
- position=140
+ position=139
  rule=2
 
 [[apps]]
- position=140
+ position=139
  rule=3
+
+[[apps]]
+ position=142
+ rule=4
 
 [[apps]]
  position=141
- rule=4
-
-[[apps]]
- position=142
  rule=1
 
 [[apps]]
- position=142
+ position=141
  rule=2
 
 [[apps]]
- position=142
+ position=141
  rule=3
+
+[[apps]]
+ position=144
+ rule=4
 
 [[apps]]
  position=143
- rule=4
-
-[[apps]]
- position=144
  rule=1
 
 [[apps]]
- position=144
+ position=143
  rule=2
 
 [[apps]]
- position=144
+ position=143
  rule=3
+
+[[apps]]
+ position=146
+ rule=4
 
 [[apps]]
  position=145
- rule=4
-
-[[apps]]
- position=146
  rule=1
 
 [[apps]]
- position=146
+ position=145
  rule=2
 
 [[apps]]
- position=146
+ position=145
  rule=3
+
+[[apps]]
+ position=148
+ rule=4
 
 [[apps]]
  position=147
- rule=4
-
-[[apps]]
- position=148
  rule=1
 
 [[apps]]
- position=148
+ position=147
  rule=2
 
 [[apps]]
- position=148
+ position=147
  rule=3
+
+[[apps]]
+ position=150
+ rule=4
 
 [[apps]]
  position=149
- rule=4
-
-[[apps]]
- position=150
  rule=1
 
 [[apps]]
- position=150
+ position=149
  rule=2
 
 [[apps]]
- position=150
+ position=149
  rule=3
+
+[[apps]]
+ position=152
+ rule=4
 
 [[apps]]
  position=151
- rule=4
-
-[[apps]]
- position=152
  rule=1
 
 [[apps]]
- position=152
+ position=151
  rule=2
 
 [[apps]]
- position=152
+ position=151
  rule=3
+
+[[apps]]
+ position=154
+ rule=4
 
 [[apps]]
  position=153
- rule=4
-
-[[apps]]
- position=154
  rule=1
 
 [[apps]]
- position=154
+ position=153
  rule=2
 
 [[apps]]
- position=154
+ position=153
  rule=3
+
+[[apps]]
+ position=156
+ rule=4
 
 [[apps]]
  position=155
- rule=4
-
-[[apps]]
- position=156
  rule=1
 
 [[apps]]
- position=156
+ position=155
  rule=2
 
 [[apps]]
- position=156
+ position=155
  rule=3
+
+[[apps]]
+ position=158
+ rule=4
 
 [[apps]]
  position=157
- rule=4
-
-[[apps]]
- position=158
  rule=1
 
 [[apps]]
- position=158
+ position=157
  rule=2
 
 [[apps]]
- position=158
+ position=157
  rule=3
+
+[[apps]]
+ position=160
+ rule=4
 
 [[apps]]
  position=159
- rule=4
-
-[[apps]]
- position=160
  rule=1
 
 [[apps]]
- position=160
+ position=159
  rule=2
 
 [[apps]]
- position=160
+ position=159
  rule=3
+
+[[apps]]
+ position=162
+ rule=4
 
 [[apps]]
  position=161
- rule=4
-
-[[apps]]
- position=162
  rule=1
 
 [[apps]]
- position=162
+ position=161
  rule=2
 
 [[apps]]
- position=162
+ position=161
  rule=3
+
+[[apps]]
+ position=164
+ rule=4
 
 [[apps]]
  position=163
- rule=4
-
-[[apps]]
- position=164
  rule=1
 
 [[apps]]
- position=164
+ position=163
  rule=2
 
 [[apps]]
- position=164
+ position=163
  rule=3
+
+[[apps]]
+ position=166
+ rule=4
 
 [[apps]]
  position=165
- rule=4
-
-[[apps]]
- position=166
  rule=1
 
 [[apps]]
- position=166
+ position=165
  rule=2
 
 [[apps]]
- position=166
+ position=165
  rule=3
+
+[[apps]]
+ position=168
+ rule=4
 
 [[apps]]
  position=167
- rule=4
-
-[[apps]]
- position=168
  rule=1
 
 [[apps]]
- position=168
+ position=167
  rule=2
 
 [[apps]]
- position=168
+ position=167
  rule=3
+
+[[apps]]
+ position=170
+ rule=4
 
 [[apps]]
  position=169
- rule=4
-
-[[apps]]
- position=170
  rule=1
 
 [[apps]]
- position=170
+ position=169
  rule=2
 
 [[apps]]
- position=170
+ position=169
  rule=3
+
+[[apps]]
+ position=172
+ rule=4
 
 [[apps]]
  position=171
- rule=4
-
-[[apps]]
- position=172
  rule=1
 
 [[apps]]
- position=172
+ position=171
  rule=2
 
 [[apps]]
- position=172
+ position=171
  rule=3
+
+[[apps]]
+ position=174
+ rule=4
 
 [[apps]]
  position=173
- rule=4
-
-[[apps]]
- position=174
  rule=1
 
 [[apps]]
- position=174
+ position=173
  rule=2
 
 [[apps]]
- position=174
+ position=173
  rule=3
+
+[[apps]]
+ position=176
+ rule=4
 
 [[apps]]
  position=175
- rule=4
-
-[[apps]]
- position=176
  rule=1
 
 [[apps]]
- position=176
+ position=175
  rule=2
 
 [[apps]]
- position=176
+ position=175
  rule=3
+
+[[apps]]
+ position=178
+ rule=4
 
 [[apps]]
  position=177
- rule=4
-
-[[apps]]
- position=178
  rule=1
 
 [[apps]]
- position=178
+ position=177
  rule=2
 
 [[apps]]
- position=178
+ position=177
  rule=3
+
+[[apps]]
+ position=180
+ rule=4
 
 [[apps]]
  position=179
- rule=4
-
-[[apps]]
- position=180
  rule=1
 
 [[apps]]
- position=180
+ position=179
  rule=2
 
 [[apps]]
- position=180
+ position=179
  rule=3
+
+[[apps]]
+ position=182
+ rule=4
 
 [[apps]]
  position=181
- rule=4
-
-[[apps]]
- position=182
  rule=1
 
 [[apps]]
- position=182
+ position=181
  rule=2
 
 [[apps]]
- position=182
+ position=181
  rule=3
+
+[[apps]]
+ position=184
+ rule=4
 
 [[apps]]
  position=183
- rule=4
-
-[[apps]]
- position=184
  rule=1
 
 [[apps]]
- position=184
+ position=183
  rule=2
 
 [[apps]]
- position=184
+ position=183
  rule=3
+
+[[apps]]
+ position=186
+ rule=4
 
 [[apps]]
  position=185
- rule=4
-
-[[apps]]
- position=186
  rule=1
 
 [[apps]]
- position=186
+ position=185
  rule=2
 
 [[apps]]
- position=186
+ position=185
  rule=3
+
+[[apps]]
+ position=188
+ rule=4
 
 [[apps]]
  position=187
- rule=4
-
-[[apps]]
- position=188
  rule=1
 
 [[apps]]
- position=188
+ position=187
  rule=2
 
 [[apps]]
- position=188
+ position=187
  rule=3
+
+[[apps]]
+ position=190
+ rule=4
 
 [[apps]]
  position=189
- rule=4
-
-[[apps]]
- position=190
  rule=1
 
 [[apps]]
- position=190
+ position=189
  rule=2
 
 [[apps]]
- position=190
+ position=189
  rule=3
+
+[[apps]]
+ position=192
+ rule=4
 
 [[apps]]
  position=191
- rule=4
-
-[[apps]]
- position=192
  rule=1
 
 [[apps]]
- position=192
+ position=191
  rule=2
 
 [[apps]]
- position=192
+ position=191
  rule=3
+
+[[apps]]
+ position=194
+ rule=4
 
 [[apps]]
  position=193
- rule=4
-
-[[apps]]
- position=194
  rule=1
 
 [[apps]]
- position=194
+ position=193
  rule=2
 
 [[apps]]
- position=194
+ position=193
  rule=3
+
+[[apps]]
+ position=196
+ rule=4
 
 [[apps]]
  position=195
- rule=4
-
-[[apps]]
- position=196
  rule=1
 
 [[apps]]
- position=196
+ position=195
  rule=2
 
 [[apps]]
- position=196
+ position=195
  rule=3
+
+[[apps]]
+ position=198
+ rule=4
 
 [[apps]]
  position=197
- rule=4
-
-[[apps]]
- position=198
  rule=1
 
 [[apps]]
- position=198
+ position=197
  rule=2
 
 [[apps]]
- position=198
+ position=197
  rule=3
+
+[[apps]]
+ position=200
+ rule=4
 
 [[apps]]
  position=199
- rule=4
-
-[[apps]]
- position=200
  rule=1
 
 [[apps]]
- position=200
+ position=199
  rule=2
 
 [[apps]]
- position=200
+ position=199
  rule=3
+
+[[apps]]
+ position=202
+ rule=4
 
 [[apps]]
  position=201
- rule=4
-
-[[apps]]
- position=202
  rule=1
 
 [[apps]]
- position=202
+ position=201
  rule=2
 
 [[apps]]
- position=202
+ position=201
  rule=3
+
+[[apps]]
+ position=204
+ rule=4
 
 [[apps]]
  position=203
- rule=4
-
-[[apps]]
- position=204
  rule=1
 
 [[apps]]
- position=204
+ position=203
  rule=2
 
 [[apps]]
- position=204
+ position=203
  rule=3
+
+[[apps]]
+ position=206
+ rule=4
 
 [[apps]]
  position=205
- rule=4
-
-[[apps]]
- position=206
  rule=1
 
 [[apps]]
- position=206
+ position=205
  rule=2
 
 [[apps]]
- position=206
+ position=205
  rule=3
+
+[[apps]]
+ position=208
+ rule=4
 
 [[apps]]
  position=207
- rule=4
-
-[[apps]]
- position=208
  rule=1
 
 [[apps]]
- position=208
+ position=207
  rule=2
 
 [[apps]]
- position=208
+ position=207
  rule=3
+
+[[apps]]
+ position=210
+ rule=4
 
 [[apps]]
  position=209
- rule=4
-
-[[apps]]
- position=210
  rule=1
 
 [[apps]]
- position=210
+ position=209
  rule=2
 
 [[apps]]
- position=210
+ position=209
  rule=3
+
+[[apps]]
+ position=212
+ rule=4
 
 [[apps]]
  position=211
- rule=4
-
-[[apps]]
- position=212
  rule=1
 
 [[apps]]
- position=212
+ position=211
  rule=2
 
 [[apps]]
- position=212
+ position=211
  rule=3
+
+[[apps]]
+ position=214
+ rule=4
 
 [[apps]]
  position=213
- rule=4
-
-[[apps]]
- position=214
  rule=1
 
 [[apps]]
- position=214
+ position=213
  rule=2
 
 [[apps]]
- position=214
+ position=213
  rule=3
+
+[[apps]]
+ position=216
+ rule=4
 
 [[apps]]
  position=215
- rule=4
-
-[[apps]]
- position=216
  rule=1
 
 [[apps]]
- position=216
+ position=215
  rule=2
 
 [[apps]]
- position=216
+ position=215
  rule=3
+
+[[apps]]
+ position=218
+ rule=4
 
 [[apps]]
  position=217
- rule=4
-
-[[apps]]
- position=218
  rule=1
 
 [[apps]]
- position=218
+ position=217
  rule=2
 
 [[apps]]
- position=218
+ position=217
  rule=3
+
+[[apps]]
+ position=220
+ rule=4
 
 [[apps]]
  position=219
- rule=4
-
-[[apps]]
- position=220
  rule=1
 
 [[apps]]
- position=220
+ position=219
  rule=2
 
 [[apps]]
- position=220
+ position=219
  rule=3
+
+[[apps]]
+ position=222
+ rule=4
 
 [[apps]]
  position=221
- rule=4
-
-[[apps]]
- position=222
  rule=1
 
 [[apps]]
- position=222
+ position=221
  rule=2
 
 [[apps]]
- position=222
+ position=221
  rule=3
+
+[[apps]]
+ position=224
+ rule=4
 
 [[apps]]
  position=223
- rule=4
-
-[[apps]]
- position=224
  rule=1
 
 [[apps]]
- position=224
+ position=223
  rule=2
 
 [[apps]]
- position=224
+ position=223
  rule=3
+
+[[apps]]
+ position=226
+ rule=4
 
 [[apps]]
  position=225
- rule=4
-
-[[apps]]
- position=226
  rule=1
 
 [[apps]]
- position=226
+ position=225
  rule=2
 
 [[apps]]
- position=226
+ position=225
  rule=3
+
+[[apps]]
+ position=228
+ rule=4
 
 [[apps]]
  position=227
- rule=4
-
-[[apps]]
- position=228
  rule=1
 
 [[apps]]
- position=228
+ position=227
  rule=2
 
 [[apps]]
- position=228
+ position=227
  rule=3
+
+[[apps]]
+ position=230
+ rule=4
 
 [[apps]]
  position=229
- rule=4
-
-[[apps]]
- position=230
  rule=1
 
 [[apps]]
- position=230
+ position=229
  rule=2
 
 [[apps]]
- position=230
+ position=229
  rule=3
+
+[[apps]]
+ position=232
+ rule=4
 
 [[apps]]
  position=231
- rule=4
-
-[[apps]]
- position=232
  rule=1
 
 [[apps]]
- position=232
+ position=231
  rule=2
 
 [[apps]]
- position=232
+ position=231
  rule=3
+
+[[apps]]
+ position=234
+ rule=4
 
 [[apps]]
  position=233
- rule=4
-
-[[apps]]
- position=234
  rule=1
 
 [[apps]]
- position=234
+ position=233
  rule=2
 
 [[apps]]
- position=234
+ position=233
  rule=3
+
+[[apps]]
+ position=236
+ rule=4
 
 [[apps]]
  position=235
- rule=4
-
-[[apps]]
- position=236
  rule=1
 
 [[apps]]
- position=236
+ position=235
  rule=2
 
 [[apps]]
- position=236
+ position=235
  rule=3
+
+[[apps]]
+ position=238
+ rule=4
 
 [[apps]]
  position=237
- rule=4
-
-[[apps]]
- position=238
  rule=1
 
 [[apps]]
- position=238
+ position=237
  rule=2
 
 [[apps]]
- position=238
+ position=237
  rule=3
+
+[[apps]]
+ position=240
+ rule=4
 
 [[apps]]
  position=239
- rule=4
-
-[[apps]]
- position=240
  rule=1
 
 [[apps]]
- position=240
+ position=239
  rule=2
 
 [[apps]]
- position=240
+ position=239
  rule=3
+
+[[apps]]
+ position=242
+ rule=4
 
 [[apps]]
  position=241
- rule=4
-
-[[apps]]
- position=242
  rule=1
 
 [[apps]]
- position=242
+ position=241
  rule=2
 
 [[apps]]
- position=242
+ position=241
  rule=3
+
+[[apps]]
+ position=244
+ rule=4
 
 [[apps]]
  position=243
- rule=4
-
-[[apps]]
- position=244
  rule=1
 
 [[apps]]
- position=244
+ position=243
  rule=2
 
 [[apps]]
- position=244
+ position=243
  rule=3
+
+[[apps]]
+ position=246
+ rule=4
 
 [[apps]]
  position=245
- rule=4
-
-[[apps]]
- position=246
  rule=1
 
 [[apps]]
- position=246
+ position=245
  rule=2
 
 [[apps]]
- position=246
+ position=245
  rule=3
+
+[[apps]]
+ position=248
+ rule=4
 
 [[apps]]
  position=247
- rule=4
-
-[[apps]]
- position=248
  rule=1
 
 [[apps]]
- position=248
+ position=247
  rule=2
 
 [[apps]]
- position=248
+ position=247
  rule=3
+
+[[apps]]
+ position=250
+ rule=4
 
 [[apps]]
  position=249
- rule=4
-
-[[apps]]
- position=250
  rule=1
 
 [[apps]]
- position=250
+ position=249
  rule=2
 
 [[apps]]
- position=250
+ position=249
  rule=3
+
+[[apps]]
+ position=252
+ rule=4
 
 [[apps]]
  position=251
- rule=4
-
-[[apps]]
- position=252
  rule=1
 
 [[apps]]
- position=252
+ position=251
  rule=2
 
 [[apps]]
- position=252
+ position=251
  rule=3
 
 [[apps]]
- position=253
+ position=254
  rule=4
 
 [[apps]]
- position=254
+ position=253
  rule=2
 
 [[apps]]
- position=254
+ position=253
  rule=3
 
 [[apps]]
