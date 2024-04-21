@@ -20,8 +20,11 @@ Rules:
 [ a C b c c ]4, 1
 [ a c b c c ]
  */
+use dep::std;
 
-global N = 64; //${LOG_STR_SIZE};
+global N = ${STR_SIZE};
+global K = ${LOOKUP_SIZE};
+global Log_Rules = 3;
 
 global S = 1;
 global Ac = 2;
@@ -101,9 +104,25 @@ struct Rule {
 	right_child: Field,
 }
 
+
+
+
+
 impl Rule {
     fn new(left_child: Field, right_child: Field) -> Self {
         Rule { left_child, right_child }
+    }
+}
+
+// Used to represent a set of labels
+struct Rule2 {
+	left_child: Field,
+	right_child: Field,
+}
+
+impl Rule2 {
+    fn new(left_child: Field, right_child: Field) -> Self {
+        Rule2 { left_child, right_child }
     }
 }
 
@@ -144,11 +163,12 @@ fn checkMemNaive(
     }
 
     let mut leaf_checked = 0;
-    let mut rules_check = 0;
+    let mut rules_checked = 0;
     for i in 0..(3 * N - 1) {
+		let node = labels[i];
         if productions[i].left_child == -1 {
             // Case where we're checking the leaf
-            output = output * (string[leaf_checked] == labels[i]);
+            output = output * (string[leaf_checked] == node);
             leaf_checked = leaf_checked + 1;
         } else {
             let nt = labels[i];
@@ -159,9 +179,228 @@ fn checkMemNaive(
                 // Handle the nt --> terminal rule
                 right_child = 0;
             }
-            let check = (nt, left_child, right_child) == rules[mem_proofs_prod[rules_check]];
+            let check = (nt, left_child, right_child) == rules[mem_proofs_prod[rules_checked]];
             output = output * check;
-            rules_check = rules_check + 1;
+            rules_checked = rules_checked + 1;
+        }
+    }
+    let leaves_check = (leaf_checked == (N as Field));
+    output = output * leaves_check;
+    output
+}
+
+// Same as checkMemNaive but only stores the labels of rules, not positions.
+fn checkMemNaive2(
+    string: [Field; N],
+    labels: [Field; 3*N - 1],
+    edges: [Edge; 3*N - 2],
+    mem_proofs_prod: [Field; 2*N - 1]
+) -> bool {
+    let mut output = true;
+    let mut productions = [Rule2::new(S, 0); 3 * N - 1];
+    for i in 0..(3 * N - 2) {
+        let parent = edges[i].parent;
+		let child_id = edges[i].child;
+        let child = labels[edges[i].child];
+        if productions[parent].left_child == S {
+            productions[parent].left_child = child;
+        } else if productions[parent].right_child == 0 {
+            productions[parent].right_child = child;
+        } else {
+            // This is the case where some node has more than two edges outgoing
+            output = false;
+        }
+        let child_value_check = child_id == ((i + 1) as Field);
+        // This should check both the range of parent and the semantics.
+        let parent_value_check = parent.lt(child_id);
+        output = output * parent_value_check * child_value_check;
+    }
+
+    let mut leaf_checked = 0;
+    let mut rules_checked = 0;
+    for i in 0..(3 * N - 1) {
+		let node = labels[i];
+        if productions[i].left_child == S {
+            // Case where we're checking the leaf
+            output = output * (string[leaf_checked] == node);
+            leaf_checked = leaf_checked + 1;
+        } else {
+            let left_child = productions[i].left_child;
+            // Handle the nt --> ntL ntR rule	
+            let right_child = productions[i].right_child;
+            // if productions[i].right_child == S {
+            //     // Handle the nt --> terminal rule
+            //     right_child = 0;
+            // }
+            let check = (node, left_child, right_child) == rules[mem_proofs_prod[rules_checked]];
+            output = output * check;
+            rules_checked = rules_checked + 1;
+        }
+    }
+    let leaves_check = (leaf_checked == (N as Field));
+    output = output * leaves_check;
+    output
+}
+
+struct MerkleProofProductions {
+	index: Field,
+	hashpath: [Field; Log_Rules]
+}
+
+// Same as checkMemNaive but only stores the labels of rules, not positions.
+fn parseTreeChecker(
+    string: [Field; N],
+    labels: [Field; 3*N - 1],
+    edges: [Edge; 3*N - 2],
+    mem_proofs_prod: [MerkleProofProductions; 2*N - 1],
+	rules_com: Field,
+) -> bool {
+    let mut output = true;
+    let mut productions = [Rule2::new(S, 0); 3 * N - 1];
+    for i in 0..(3 * N - 2) {
+        let parent = edges[i].parent;
+		let child_id = edges[i].child;
+        let child = labels[edges[i].child];
+        if productions[parent].left_child == S {
+            productions[parent].left_child = child;
+        } else if productions[parent].right_child == 0 {
+            productions[parent].right_child = child;
+        } else {
+            // This is the case where some node has more than two edges outgoing
+            output = false;
+        }
+        let child_value_check = child_id == ((i + 1) as Field);
+        // This should check both the range of parent and the semantics.
+        let parent_value_check = parent.lt(child_id);
+        output = output * parent_value_check * child_value_check;
+    }
+	
+    let mut leaf_checked = 0;
+    let mut rules_checked = 0;
+	/*********
+	let mut leaves = [a as Field; N];
+	let mut prods = [0 as Field; 2*N - 1];
+
+    for i in 0..(3 * N - 1) {
+		let node = labels[i];
+        if productions[i].left_child == S {
+            // Case where we're checking the leaf
+            leaves[leaf_checked] = node;
+            leaf_checked = leaf_checked + 1;
+        } else {
+            let left_child = productions[i].left_child;
+            // Handle the nt --> ntL ntR rule	
+            let right_child = productions[i].right_child;
+            // if productions[i].right_child == S {
+            //     // Handle the nt --> terminal rule
+            //     right_child = 0;
+            // }
+			let rule = [node as Field, left_child as Field, right_child as Field];
+
+			let rule_hash = std::hash::hash_to_field(rule.as_slice());
+			prods[rules_checked] = rule_hash;
+            rules_checked = rules_checked + 1;
+        }
+    }
+	for i in 0..N {
+		output = output * (leaves[i] == string[i]);
+	}
+	for i in 0..(2*N - 1) {
+		let rule_hash = prods[i];
+		let index = mem_proofs_prod[i].index;
+		let path = mem_proofs_prod[i].hashpath;
+		let merkle_root = std::merkle::compute_merkle_root(rule_hash, index, path);
+		let check = merkle_root == rules_com;
+		output = output * check;
+	}
+	**********/
+	for i in 0..(3 * N - 1) {
+		let node = labels[i];
+        if productions[i].left_child == S {
+            // Case where we're checking the leaf
+            output = output * (string[leaf_checked] == node);
+            leaf_checked = leaf_checked + 1;
+        } else {
+            let left_child = productions[i].left_child;
+            // Handle the nt --> ntL ntR rule	
+            let right_child = productions[i].right_child;
+            // if productions[i].right_child == S {
+            //     // Handle the nt --> terminal rule
+            //     right_child = 0;
+            // }
+			let index = mem_proofs_prod[rules_checked].index;
+			let path = mem_proofs_prod[rules_checked].hashpath;
+            let rule = [node as Field, left_child as Field, right_child as Field];
+			let rule_hash = std::hash::hash_to_field(rule.as_slice());
+			let merkle_root = std::merkle::compute_merkle_root(rule_hash, index, path);
+			let check = merkle_root == rules_com;
+			output = output * check;
+            rules_checked = rules_checked + 1;
+        }
+    }
+    let leaves_check = (leaf_checked == (N as Field));
+    output = output * leaves_check;
+    output
+}
+
+// struct MerkleProofStr {
+// 	index: Field,
+// 	hashpath: [Field; Log(N)]
+// }
+
+// Same as checkMemNaive but only stores the labels of rules, not positions.
+fn parseTreeCheckerComStr(
+    string: [Field; N],
+    labels: [Field; 3*N - 1],
+    edges: [Edge; 3*N - 2],
+    mem_proofs_prod: [MerkleProofProductions; 2*N - 1],
+	rules_com: Field,
+) -> bool {
+    let mut output = true;
+    let mut productions = [Rule2::new(S, 0); 3 * N - 1];
+    for i in 0..(3 * N - 2) {
+        let parent = edges[i].parent;
+		let child_id = edges[i].child;
+        let child = labels[edges[i].child];
+        if productions[parent].left_child == S {
+            productions[parent].left_child = child;
+        } else if productions[parent].right_child == 0 {
+            productions[parent].right_child = child;
+        } else {
+            // This is the case where some node has more than two edges outgoing
+            output = false;
+        }
+        let child_value_check = child_id == ((i + 1) as Field);
+        // This should check both the range of parent and the semantics.
+        let parent_value_check = parent.lt(child_id);
+        output = output * parent_value_check * child_value_check;
+    }
+	
+    let mut leaf_checked = 0;
+    let mut rules_checked = 0;
+	
+	for i in 0..(3 * N - 1) {
+		let node = labels[i];
+        if productions[i].left_child == S {
+            // Case where we're checking the leaf
+            output = output * (string[leaf_checked] == node);
+            leaf_checked = leaf_checked + 1;
+        } else {
+            let left_child = productions[i].left_child;
+            // Handle the nt --> ntL ntR rule	
+            let right_child = productions[i].right_child;
+            // if productions[i].right_child == S {
+            //     // Handle the nt --> terminal rule
+            //     right_child = 0;
+            // }
+			let index = mem_proofs_prod[rules_checked].index;
+			let path = mem_proofs_prod[rules_checked].hashpath;
+            let rule = [node as Field, left_child as Field, right_child as Field];
+			let rule_hash = std::hash::hash_to_field(rule.as_slice());
+			let merkle_root = std::merkle::compute_merkle_root(rule_hash, index, path);
+			let check = merkle_root == rules_com;
+			output = output * check;
+            rules_checked = rules_checked + 1;
         }
     }
     let leaves_check = (leaf_checked == (N as Field));
@@ -211,18 +450,49 @@ fn naive_impl(string: [Field; N], apps: [App; 2*N-1]) {
     assert(cur == 0);
 }
 
-fn main(
-    string: [Field; N],
-    labels: [Field; 3*N - 1],
-    edges: [Edge; 3*N - 2],
-    mem_proofs_prod: [Field; 2*N - 1]
-) {
-    checkMemNaive(string, labels, edges, mem_proofs_prod);
+fn check_array_access(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
+	for i in 0..K {
+		let loc = locs[i];
+		assert(arr[loc] == vals[loc]);
+	}
+		
 }
+
+fn main(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
+	check_array_access(locs, arr, vals);
+}
+
+// fn main(
+//     string: [Field; N],
+//     labels: [Field; 3*N - 1],
+//     edges: [Edge; 3*N - 2],
+//     mem_proofs_prod: [MerkleProofProductions; 2*N - 1],
+// 	rules_com: Field
+// ) {
+//     assert(parseTreeChecker(string, labels, edges, mem_proofs_prod, rules_com) == true);
+// }
+
+// fn main(
+//     string: [Field; N],
+//     labels: [Field; 3*N - 1],
+//     edges: [Edge; 3*N - 2],
+//     mem_proofs_prod: [Field; 2*N - 1]
+// ) {
+//     assert(checkMemNaive2(string, labels, edges, mem_proofs_prod) == true);
+// }
+
+
+// fn main(
+//     string: [Field; N],
+//      apps: [App; 2*N-1]
+// ) {
+// 	naive_impl(string, apps);
+// }
+
 
 // #[test]
 // fn test_check_mem_naive() {
-//     assert(checkMemNaive([a, c, a, c], 
+//     assert(checkMemNaive2([a, c, a, c], 
 // 	 [S, Ac, Ac, A, C, A, C, a, c, a, c], 
 // 	 [Edge::new(0, 1), Edge::new(0, 2),
 // 	 Edge::new(1, 3), Edge::new(1, 4), 
