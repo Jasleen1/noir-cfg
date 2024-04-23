@@ -348,63 +348,83 @@ fn parseTreeChecker(
 // 	hashpath: [Field; Log(N)]
 // }
 
-// Same as checkMemNaive but only stores the labels of rules, not positions.
-fn parseTreeCheckerComStr(
+struct Production {
+    parent: Field,
+    childL: Field,
+    childR: Field,
+}
+
+// Same as parseTreeChecker but takes in productions, instead of edges
+fn parseTreeCheckerProds(
     string: [Field; N],
     labels: [Field; 3*N - 1],
-    edges: [Edge; 3*N - 2],
+    prods: [Production; 2*N - 1],
     mem_proofs_prod: [MerkleProofProductions; 2*N - 1],
 	rules_com: Field,
 ) -> bool {
+    // FIXME: Right now, none of the checks ensure that 
+    // the root node is in the set of start symbols.
     let mut output = true;
-    let mut productions = [Rule2::new(S, 0); 3 * N - 1];
-    for i in 0..(3 * N - 2) {
-        let parent = edges[i].parent;
-		let child_id = edges[i].child;
-        let child = labels[edges[i].child];
-        if productions[parent].left_child == S {
-            productions[parent].left_child = child;
-        } else if productions[parent].right_child == 0 {
-            productions[parent].right_child = child;
-        } else {
-            // This is the case where some node has more than two edges outgoing
-            output = false;
+    let mut leaf_count = 0;
+    let mut node_counter = 0;
+    let mut latest_parent = -1;
+    output = output * (node_counter == prods[0].parent);
+    node_counter = node_counter + 1;
+    for i in 0..(2 * N - 1) {
+        let prod = prods[i];
+        let parent_id = prod.parent;
+		let child_L_id = prod.childL;
+        let child_R_id = prod.childR;
+        let parent = labels[parent_id];
+        let left_child = labels[child_L_id];
+        let mut right_child = 0;
+        // First check for no cycles
+        let mut parent_check = parent_id.lt(child_L_id);
+        let mut count_check = child_L_id == node_counter;
+        node_counter = node_counter + 1;
+        if child_R_id == 0 {
+            // This is the case where we are dealing with a NT --> T rule
+            // Terminal check checks both that a leaf node is a terminal 
+            // and in the string, since we assume the string is correctly composed of terminals.
+            let terminal_check = (left_child == string[leaf_count]);
+            leaf_count = leaf_count + 1;
+            output = output * terminal_check;
         }
-        let child_value_check = child_id == ((i + 1) as Field);
-        // This should check both the range of parent and the semantics.
-        let parent_value_check = parent.lt(child_id);
-        output = output * parent_value_check * child_value_check;
-    }
-	
-    let mut leaf_checked = 0;
-    let mut rules_checked = 0;
-	
-	for i in 0..(3 * N - 1) {
-		let node = labels[i];
-        if productions[i].left_child == S {
-            // Case where we're checking the leaf
-            output = output * (string[leaf_checked] == node);
-            leaf_checked = leaf_checked + 1;
-        } else {
-            let left_child = productions[i].left_child;
-            // Handle the nt --> ntL ntR rule	
-            let right_child = productions[i].right_child;
-            // if productions[i].right_child == S {
-            //     // Handle the nt --> terminal rule
-            //     right_child = 0;
-            // }
-			let index = mem_proofs_prod[rules_checked].index;
-			let path = mem_proofs_prod[rules_checked].hashpath;
-            let rule = [node as Field, left_child as Field, right_child as Field];
-			let rule_hash = std::hash::hash_to_field(rule.as_slice());
-			let merkle_root = std::merkle::compute_merkle_root(rule_hash, index, path);
-			let check = merkle_root == rules_com;
-			output = output * check;
-            rules_checked = rules_checked + 1;
+        else {
+            // This and the other node counter check, above ensures that all child nodes
+            // appear in exactly one production and that each non-root node
+            // has a parent. 
+            count_check = count_check * (child_R_id == node_counter);
+            node_counter = node_counter + 1;
+            right_child = labels[child_R_id];
+            // Second check for no cycles
+            parent_check = parent_check * (parent_id.lt(child_R_id));
         }
+        
+		let index = mem_proofs_prod[i].index;
+		let path = mem_proofs_prod[i].hashpath;
+        let rule = [parent as Field, left_child as Field, right_child as Field];
+        let rule_hash = std::hash::hash_to_field(rule.as_slice());
+        let merkle_root = std::merkle::compute_merkle_root(rule_hash, index, path);
+        // // This finally checks that the production is valid.
+        let merkle_check = merkle_root == rules_com;
+
+        // We need to ensure that exactly 2N-1 productions are made,
+        // each with a unique parent node. 
+        // The strictly increasing requirement ensures this. 
+        let parent_increment_check = latest_parent.lt(parent_id);
+        latest_parent = parent_id;
+        output = output * parent_check * count_check * parent_increment_check * merkle_check;
     }
-    let leaves_check = (leaf_checked == (N as Field));
-    output = output * leaves_check;
+	// Checks that all child nodes are in the correct range.
+    // Note that we already checked that the start node is 0.
+    // And that all real nodes after that respect increments of 1.
+    let nodes_check = (node_counter == ((3*N - 1) as Field));
+    // Check that we had the exactly right number of leaves.
+    let leaves_check = (leaf_count == (N as Field));
+    // Check that parent nodes are within range upper bound.
+    let parent_range_final_check = (latest_parent.lt((3*N - 1) as Field));
+    output = output * leaves_check  * nodes_check * parent_range_final_check;
     output
 }
 
@@ -458,9 +478,9 @@ fn check_array_access(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
 		
 }
 
-fn main(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
-	check_array_access(locs, arr, vals);
-}
+// fn main(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
+// 	check_array_access(locs, arr, vals);
+// }
 
 // fn main(
 //     string: [Field; N],
@@ -471,6 +491,16 @@ fn main(locs: [Field; K], arr: [Field; N], vals: [Field; K]) {
 // ) {
 //     assert(parseTreeChecker(string, labels, edges, mem_proofs_prod, rules_com) == true);
 // }
+
+fn main(
+    string: [Field; N],
+    labels: [Field; 3*N - 1],
+    prods: [Production; 2*N - 1],
+    mem_proofs_prod: [MerkleProofProductions; 2*N - 1],
+	rules_com: Field
+) {
+    assert(parseTreeCheckerProds(string, labels, prods, mem_proofs_prod, rules_com) == true);
+}
 
 // fn main(
 //     string: [Field; N],

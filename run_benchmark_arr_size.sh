@@ -6,7 +6,7 @@
 # rm -r test_circuits
 # mkdir -p test_circuits
 
-LOW_ARR_SIZE=2
+LOW_ARR_SIZE=4
 HIGH_ARR_SIZE=19
 
 LOW_LOOKUP_SIZE=0
@@ -27,7 +27,7 @@ do
         
         
         # Generate the Prover.toml with an array
-        # python3 ../../../generate_arr_benchmark_inp.py $(($i)) $(($j)) | dd status=none of=./Prover.toml
+        python3 ../../../generate_arr_benchmark_inp.py $(($i)) $(($j)) | dd status=none of=./Prover.toml
 
         # echo >> ./Prover.toml "x = ["    
         # for j in $(seq 1 $((2**i)))
@@ -42,7 +42,7 @@ do
         nargo compile
         nargo info | tee ../info_${i}-${j}.txt
 
-        # { time nargo prove; } 2> ../time_proof_${i}-${j}.txt
+        { time nargo prove; } 2> ../time_proof_${i}-${j}.txt
 
         popd
     done

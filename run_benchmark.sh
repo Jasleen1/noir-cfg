@@ -7,15 +7,15 @@
 # mkdir -p build_circuits
 
 # Loop over sizes
-for i in $(seq 9 10)
+for i in $(seq 1 15)
 do
 
     # Generate a new build/2^{i} folder
-    # nargo new build_circuits/2^${i}
+    nargo new build_circuits/2^${i}
     pushd build_circuits/2^${i}
 
     # replace {{N}} in src/main.nr    
-    # cat ../../src/main.nr | STR_SIZE=$((2**$i)) envsubst > ./src/main.nr
+    cat ../../src/main.nr | STR_SIZE=$((2**$i)) LOOKUP_SIZE=0 envsubst > ./src/main.nr
     
     # Generate the Prover.toml with an array
     # python3 ../../generate_benchmark_str.py $(($i)) 2>&1 | tee ./Prover.toml

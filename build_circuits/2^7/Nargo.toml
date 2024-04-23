@@ -1,7 +1,0 @@
-[package]
-name = "2^7"
-type = "bin"
-authors = [""]
-compiler_version = ">=0.26.0"
-
-[dependencies]

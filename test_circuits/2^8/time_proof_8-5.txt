@@ -1,70 +1,44 @@
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
 
-real	0m0.275s
-user	0m0.433s
-sys	0m0.043s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.755s
+user	0m1.412s
+sys	0m1.252s
 
-real	0m0.298s
-user	0m0.442s
-sys	0m0.046s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.556s
+user	0m1.409s
+sys	0m1.223s
 
-real	0m0.287s
-user	0m0.428s
-sys	0m0.045s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.788s
+user	0m1.408s
+sys	0m1.223s
 
-real	0m0.284s
-user	0m0.428s
-sys	0m0.042s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.663s
+user	0m1.385s
+sys	0m1.236s
 
-real	0m0.287s
-user	0m0.435s
-sys	0m0.043s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.640s
+user	0m1.406s
+sys	0m1.256s
 
-real	0m0.309s
-user	0m0.426s
-sys	0m0.040s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.662s
+user	0m1.384s
+sys	0m1.221s
 
-real	0m0.276s
-user	0m0.429s
-sys	0m0.043s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.588s
+user	0m1.419s
+sys	0m1.256s
 
-real	0m0.265s
-user	0m0.435s
-sys	0m0.043s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.654s
+user	0m1.403s
+sys	0m1.256s
 
-real	0m0.277s
-user	0m0.425s
-sys	0m0.043s
- Error: cannot find Prover.toml file.
- Expected location: "/Users/harjasleenmalvai/Documents/phdProjects/parsing_proofs/noir-cfg/test_circuits/2^8/2^5/Prover.toml" 
- Please generate this file at the expected location.
+real	0m2.684s
+user	0m1.416s
+sys	0m1.266s
 
-real	0m0.291s
-user	0m0.438s
-sys	0m0.044s
+real	0m2.706s
+user	0m1.391s
+sys	0m1.253s
+
+real	0m2.630s
+user	0m1.387s
+sys	0m1.259s
